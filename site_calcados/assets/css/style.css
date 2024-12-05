@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  
+}
+
+
+.header2 {
+  background-color: #ffffff00;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 0;
+}
+
+.header2 .wrapper {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 45px;
+}
+
+.header2 .menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
