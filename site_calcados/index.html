@@ -19,5 +19,48 @@
             </nav>
         </div>
     </header>
+
+    <div class="banner"></div>
+
+    <div class="espaco-branco"></div>
+
+    <section class="section2">
+
+        <h2>Produtos</h2>
+
+        <div class="card-pai">
+
+            <div class="card">
+                <img src="" alt="">
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+            </div>
+
+        </div>
+    </section>
 </body>
+
+<script>
+    
+    window.addEventListener("scroll", function(event) {
+            var header = document.querySelector("#header")
+            var top = this.scrollY;
+
+            if (top >= 544) {
+                header.className = "header1"
+            } else {
+                header.className = "header2"
+            }
+
+            console.log(top)
+            
+        }, false);
+
+</script>
 </html>
